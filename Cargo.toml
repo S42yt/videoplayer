@@ -1,0 +1,11 @@
+[package]
+name = "videoplayer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+clap = { version = "4.3", features = ["derive"] }
+anyhow = "1.0"
+which = "4.4"
+ctrlc = "3.2"
